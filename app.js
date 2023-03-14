@@ -128,7 +128,6 @@ inputs.forEach(function (item) {
         item.classList.add("error--input");
         correctClassRemove();
       }
-
       emptyInput(cvc, "000");
       if (this.value === "") {
         errorClassRemove();
